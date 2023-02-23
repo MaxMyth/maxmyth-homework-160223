@@ -1,0 +1,56 @@
+
+/* select by tag name */
+body{ 
+    background-color: blue;
+
+}
+body {color: yellow;}
+p,h2 {
+    font-size:  30px;
+}
+/* block tags */
+ 
+section p {
+    font-size: 15px;
+}
+article p {
+    font-size: 50px;
+}
+/* class attributes */
+/* class attributes dominates blocks and tags*/
+.container-text {
+    font-size: 20px;
+    color: rgb(223, 42, 42);
+}
+.container-text.big {
+     font-size: 80px;
+} 
+/* importance increase by adding a word */
+
+/* id attr is the most important */
+#impoprtentn-text 
+{
+    font-size: 60px;
+    color: beige;
+}
+/* * to choose althe body elements and body itself */
+/* *{
+    text-decoration: underline;
+} */
+ul li:first-child {
+    background-color: black;
+}
+ul li:last-child {
+    background-color: brown;
+}
+ul li:nth-child(4) {background-color: chartreuse;}
+
+ul li:nth-child(3) {background-color: rgb(155, 22, 51)}
+
+/* p{
+    color:blue;
+}
+p{
+    color:orangered;
+} 
+between the selectors with the same level wins one who comes lower*/
