@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    /* allways setup */
+}
+div{
+    /* color: rgba(54, 153, 29, 0.238); */
+    color: #FAC960;
+    background-color: rgba(0, 0, 0, 0.299);
+    width: 500px;
+    /* height: 100px; */
+    /* PADDINGS */
+    padding: 50px 100px;
+    /* padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 70px;
+    padding-bottom: 150px; */
+   
+    /* margin: 100px 200px; */
+    /* margin-bottom: 100px; */
+    /* margin-top: 50px;
+    
+    margin-left: 1600px;
+    margin-right: 300px;
+     */
+     margin: 100px auto;
+     text-align: center;
+
+}   
+h1 {
+    text-align: center;
+}
+span {
+    background-color: #FAC960;
+    padding: 50px;
+    margin: 50px;
+    height: 40px;
+    display: inline-block;
+}
+button {
+    background-color: rgb(5, 104, 18);
+    padding: 20px 40px;
+    color: aqua;
+
+}
+/* a{
+    color: rgb(199, 62, 75);
+    text-decoration: none;  
+    margin: 10px; */
+
+}
+div:empty
+{
+    background-color: black;
+}
+header {
+    background-color: black;
+    margin:0;
+}
+.menu-list {
+     margin: 0;
+     padding 0;
+     text-align: right;
+}
+.menu-list li {
+    display: inline-block;
+    margin-right: 40px;
+}
+.menu-list li a{
+    text-decoration: none;
+    color: rgb(199, 227, 12);
+    font-size: 30px;
+}
+.menu-list li :last-child {
+    margin-right: 10px;
+
+}
